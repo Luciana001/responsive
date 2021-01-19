@@ -1,0 +1,39 @@
+@media (max-width: 300px) {
+	body {
+		background-color: red;
+		font-family:; Arial, sans-serif;
+	}
+
+}
+@media (min-width: 300px) and (max-width:768px){
+	body {
+		background-color: green;
+		font-family: Times, Times New Roman, serif;
+	}
+	#medium{
+
+		width:33%;
+		float: left;
+
+	}
+	#small{
+		width: 66%;
+		float: left;
+	} 
+	#large{
+		width: 100%;
+	}
+}
+@media (min-width: 768px) {
+	body {
+		background-color: blue;
+		font-family: Courier New, monospace;
+	}
+	#medium, #small, #large{
+		width: 33%;
+		float: left;
+	}
+}
+body{
+	box-sizing: border-box;
+}
